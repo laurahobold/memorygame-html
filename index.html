@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <title>Evangelion Memory Game</title>
+</head>
+
+<body>
+    <div class="top" id="menu">
+        <div class="menu-square">
+            <h1 class="title">MEMORY <br /> GAME <br />
+                <h1 class="eva title">EVANGELION </h1>
+            </h1>
+            <h3 class="ep desc">
+                EPISODE: 01
+            </h3>
+            <h3 class="desc">
+                Play a memory game Evangelion-themed made using HTML, CSS, and JS.
+            </h3>
+            <button class="start" onclick="startButton()">START</button>
+        </div>
+    </div>
+    <div class="top game" id="game">
+        <div class="game-top">
+            <button class="return" onclick="returnButton()">RETURN</button>
+            <span id="score" class="score">SCORE:0</span>
+        </div>
+        <div class="game-bg">
+
+            <div class="cards">
+                <div class="card">
+                    <img onclick="selectCard(0)" id="0" class="card-image" src="img/cards/0.jpeg" />
+                </div>
+                <div class="card">
+                    <img onclick="selectCard(1)" id="1" class="card-image" src="img/cards/1.jpeg" />
+                </div>
+                <div class="card">
+                    <img onclick="selectCard(2)" id="2" class="card-image" src="img/cards/2.jpeg" />
+                </div>
+                <div class="card">
+                    <img onclick="selectCard(3)" id="3" class="card-image" src="img/cards/3.jpeg" />
+                </div>
+                <div class="card">
+                    <img onclick="selectCard(4)" id="4" class="card-image" src="img/cards/4.jpeg" />
+                </div>
+                <div class="card">
+                    <img onclick="selectCard(5)" id="5" class="card-image" src="img/cards/5.jpeg" />
+                </div>
+                <div class="card">
+                    <img onclick="selectCard(6)" id="6" class="card-image" src="img/cards/6.jpeg" />
+                </div>
+                <div class="card">
+                    <img onclick="selectCard(7)" id="7" class="card-image" src="img/cards/7.jpeg" />
+                </div>
+                <div class="card">
+                    <img onclick="selectCard(8)" id="8" class="card-image" src="img/cards/8.jpeg" />
+                </div>
+                <div class="card">
+                    <img onclick="selectCard(9)" id="9" class="card-image" src="img/cards/9.jpeg" />
+                </div>
+                <div class="card">
+                    <img onclick="selectCard(10)" id="10" class="card-image" src="img/cards/10.jpeg" />
+                </div>
+                <div class="card">
+                    <img onclick="selectCard(11)" id="11" class="card-image" src="img/cards/11.jpeg" />
+                </div>
+                <div class="card">
+                    <img onclick="selectCard(12)" id="12" class="card-image" src="img/cards/12.jpeg" />
+                </div>
+                <div class="card">
+                    <img onclick="selectCard(13)" id="13" class="card-image" src="img/cards/13.jpeg" />
+                </div>
+                <div class="card">
+                    <img onclick="selectCard(14)" id="14" class="card-image" src="img/cards/0.jpeg" />
+                </div>
+                <div class="card">
+                    <img onclick="selectCard(15)" id="15" class="card-image" src="img/cards/1.jpeg" />
+                </div>
+                <div class="card">
+                    <img onclick="selectCard(16)" id="16" class="card-image" src="img/cards/2.jpeg" />
+                </div>
+                <div class="card">
+                    <img onclick="selectCard(17)" id="17" class="card-image" src="img/cards/3.jpeg" />
+                </div>
+                <div class="card">
+                    <img onclick="selectCard(18)" id="18" class="card-image" src="img/cards/4.jpeg" />
+                </div>
+                <div class="card">
+                    <img onclick="selectCard(19)" id="19" class="card-image" src="img/cards/5.jpeg" />
+                </div>
+                <div class="card">
+                    <img onclick="selectCard(20)" id="20" class="card-image" src="img/cards/6.jpeg" />
+                </div>
+                <div class="card">
+                    <img onclick="selectCard(21)" id="21" class="card-image" src="img/cards/7.jpeg" />
+                </div>
+                <div class="card">
+                    <img onclick="selectCard(22)" id="22" class="card-image" src="img/cards/8.jpeg" />
+                </div>
+                <div class="card">
+                    <img onclick="selectCard(23)" id="23" class="card-image" src="img/cards/9.jpeg" />
+                </div>
+                <div class="card">
+                    <img onclick="selectCard(24)" id="24" class="card-image" src="img/cards/10.jpeg" />
+                </div>
+                <div class="card">
+                    <img onclick="selectCard(25)" id="25" class="card-image" src="img/cards/11.jpeg" />
+                </div>
+                <div class="card">
+                    <img onclick="selectCard(26)" id="26" class="card-image" src="img/cards/12.jpeg" />
+                </div>
+                <div class="card">
+                    <img onclick="selectCard(27)" id="27" class="card-image" src="img/cards/13.jpeg" />
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

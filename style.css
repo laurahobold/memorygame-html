@@ -1,0 +1,144 @@
+@font-face {
+    font-family: "Times";
+    src: url("fonts/timesnewromanmt-condensed-bold.ttf");
+}
+
+body {
+    background-image: url("img/background/2.jpg");
+}
+
+* {
+    font-family: 'Times', Arial, sans-serif;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15%;
+}
+
+.menu-square {
+    background-color: rgba(0, 0, 0, 85%);
+    padding: 40px;
+    height: auto;
+    max-width: 850px;
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    flex-wrap: wrap;
+    min-width: 930px;
+}
+
+.title {
+    font-family: 'Times', Arial, sans-serif;
+    color: white;
+    font-stretch: narrower;
+    font-size: 50px;
+    margin: 0px;
+    width: 100%;
+    padding: 0px;
+    line-height: 40px;
+}
+
+.eva {
+    font-size: 70px;
+    line-height: 55px;
+}
+
+.desc {
+    font-family: 'Times';
+    font-weight: 400;
+    font-size: 25px;
+    margin-bottom: 50px;
+    color: white;
+    font-stretch: narrower;
+    word-break: break-all;
+    min-width: 500px;
+    margin: 5px;
+}
+
+.ep {
+    font-family: arial;
+    font-size: 30px;
+}
+
+button {
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    width: 20%;
+    margin: auto;
+    background: none;
+    cursor: pointer;
+    border: none;
+    text-decoration: underline;
+}
+
+button:hover {
+    color: black;
+    background-color: white;
+}
+
+.start {
+    margin-top: 50px;
+}
+
+.game {
+    margin: 20px;
+}
+
+.return {
+    text-decoration: none;
+    font-size: 15px;
+    width: 100%;
+    margin: 0;
+    display: flex
+}
+
+.score,
+.game button {
+    font-weight: bold;
+    color: white;
+}
+
+.game-top {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 50px;
+    max-width: 760px;
+}
+
+.game button:hover {
+    color: white;
+    border: none;
+    background: none;
+    text-decoration: none;
+    margin: none;
+    padding: none;
+}
+
+.game-bg {
+    background-color: rgba(0, 0, 0, 65%);
+    width: 100%;
+    height: 100%;
+    max-width: 760px;
+}
+
+.card-image {
+    width: 80px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    padding: 10px;
+}
